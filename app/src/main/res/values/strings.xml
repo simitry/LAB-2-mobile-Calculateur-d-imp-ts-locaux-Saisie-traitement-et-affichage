@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Impots locaux</string>
+    <string name="surface_hint">Surface (m2)</string>
+    <string name="pieces_hint">Nombre de pieces</string>
+    <string name="piscine_label">Piscine</string>
+    <string name="calculer">Calculer</string>
+    <string name="result_format">Impot total : %.2f DH</string>
+    <string name="input_error">Veuillez saisir la surface et le nombre de pieces.</string>
+    <string name="format_error">Veuillez saisir des valeurs valides.</string>
+</resources>

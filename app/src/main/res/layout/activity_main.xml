@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/input_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surface_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/pieces_hint"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/piscine_label" />
+
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculer" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/ink"
+        android:textSize="18sp" />
+
+</LinearLayout>
